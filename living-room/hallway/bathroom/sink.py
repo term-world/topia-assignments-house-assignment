@@ -1,0 +1,1 @@
+print("You sing happy birthday while washing your hands.")

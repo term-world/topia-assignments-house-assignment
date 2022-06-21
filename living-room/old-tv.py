@@ -1,0 +1,1 @@
+print("...TV's are supposed to have power cables, right?")
