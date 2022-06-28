@@ -15,7 +15,7 @@ def main():
         else:
             print("Attached to the kit is another note.")
 
-            note = requests.get("https://raw.githubusercontent.com/term-world/world-flavor/main/key-making-kit-note.md")
+            note = requests.get("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/key-making-kit-note.md")
             note_stringified = str(note.text)
             new_file = open("key-making-kit-note.md", "x")
             new_file.write(note_stringified)

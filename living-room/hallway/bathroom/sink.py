@@ -13,7 +13,7 @@ def main():
             print("TCTC--whoever that is--has definitely been here.")
             print("There's a note on the mirror above the sink, in his (her? their?) handwriting.")
             print()
-            note = requests.get("https://raw.githubusercontent.com/term-world/world-flavor/main/bathroom-mirror-note.md")
+            note = requests.get("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/bathroom-mirror-note.md")
             note_stringified = str(note.text)
             new_file = open("bathroom-mirror-note.md", "x")
             new_file.write(note_stringified)
