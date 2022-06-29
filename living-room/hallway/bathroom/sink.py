@@ -1,5 +1,6 @@
 import os
 import requests
+import gitit
 
 def main():
     print()
@@ -13,11 +14,7 @@ def main():
             print("TCTC--whoever that is--has definitely been here.")
             print("There's a note on the mirror above the sink, in his (her? their?) handwriting.")
             print()
-            note = requests.get("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/bathroom-mirror-note.md")
-            note_stringified = str(note.text)
-            new_file = open("bathroom-mirror-note.md", "x")
-            new_file.write(note_stringified)
-            new_file.close()
+            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/bathroom-mirror-note.md", "bathroom-mirror-note.md")
             print("~You know the drill by now; there's another note in your File Explorer~")
             print("~See if you can locate it~")
             print()
