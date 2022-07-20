@@ -1,0 +1,113 @@
+# note-from-landlord
+0:
+  0:
+    - There's a note addressed to you--it appears to be from your new landlord.
+  1:
+    - Heya, new tenant!
+    - Hope your travels to term-world went smoothly. The movers just got here the other day.
+    - I let them in for you--would ya believe that moving company you hired didn't label your boxes?
+    - They didn't really know what to do, so I just had them distribute them across the rooms of your house.
+    - I counted [5] boxes in total. They're scattered just about everywhere. Just a heads-up.
+    - To unpack a `moving-box.py`, just "execute" it, just like you did with this note. I'm sure you know what to do.
+  2:
+    - There's one more piece of business I'll need you to take care of, too. You never signed your lease.
+    - Obviously we'll need to rectify that.
+    - Here's the deal: in order to stay "hip" with the times, our intern suggested we keep all our files *digitally*.
+    - I figured that meant we could sell our printer. So, I'm afraid we don't have a paper copy for you.
+    - (No e-signatures, unfortunately. The intern never showed me how to do that stuff.)
+    - I'm trusting you moved in with both a `printer.py` and some `ink`, yeah?
+  3:
+    - Thankfully every one of our state-of-the-art properties comes equipped with a cliVe unit!
+    - He's a robotic assistant that can be called at a moment's notice. No matter where you are!
+    - Just say his name! (It's case-sensitive, with a capital "V".) You'll also need a command, like "fetch".
+    - Not to mention a *thing* to fetch. I'd try out something like this...
+    -
+    - cliVe fetch lease
+    -
+    - He'll download that lease file for you so you can print it out.
+    - There's lots of other things he can do, too! The intern's *real* great with those units...
+    - ...unfortunately, I had to let her go a little while back.
+    - We had a misunderstanding about compensation practices for internships.
+    - I don't really know much else about them, but you'll probably figure it out someday.
+  4:
+    - Anyways, that should about wrap things up here. I've gotta run.
+    - The pursuit for free labor never ends for an enterprising businessman such as myself.
+    - Good luck with the unpacking, and get me that lease ASAP.
+    -
+    - Signed,
+    -     The Landlord
+  5:
+    - You put the note back down.
+
+# fragile-moving-box (printer, box in dining-room)
+1:
+  0:
+    - A moving box marked "FRAGILE".
+  1:
+    - Inside is a very old and particularly delicate looking `printer.py`.
+  2:
+    - You gingerly move the `printer.py` into the living-room.
+    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+  3:
+    - You decide to keep the `printer.py` in the dining-room. That was easy.
+  4:
+    - You gingerly move the `printer.py` into the kitchen.
+    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+  5:
+    - You gingerly move the `printer.py` into the hallway.
+    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+  6:
+    - You gingerly move the `printer.py` into the bedroom.
+    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+  7:
+    - You gingerly move the `printer.py` into the office.
+    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+  
+
+# ultra-heavy-moving-box (couch, box in kitchen)
+2:
+  0:
+    - A moving box that's so heavy, you're fairly certain you can see the floor sagging a bit beneath it.
+    - That's just *great*.
+  1:
+    - Inside is an entire `couch.py`, naturally. How'd they get *that* inside a box?
+  2:
+    - You slowly push the `couch.py` into the living-room.
+    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. Might be worth checking out later.
+    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+  3:
+    - You slowly push the `couch.py` into the dining-room.
+    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. Might be worth checking out later.
+    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+  4:
+    - You push the `couch.py` up against a wall in your kitchen.
+    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. Might be worth checking out later.
+  5:
+    - You slowly push the `couch.py` into the hallway.
+    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. Might be worth checking out later.
+    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+  6:
+    - You slowly push the `couch.py` into the bedroom.
+    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. Might be worth checking out later.
+    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+  7:
+    - You slowly push the `couch.py` into the office.
+    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. Might be worth checking out later.
+    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+
+# petite-moving-box (box in bedroom)
+3:
+  0:
+    - A curiously small cardboard box.
+  1:
+    - 
+
+# perfectly-square-moving-box (box in bedroom)
+
+# irregular-moving-box (box in office)
