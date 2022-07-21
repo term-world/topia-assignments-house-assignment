@@ -1,17 +1,9 @@
 import narrator
-import json
 
-
-def load_json(filepath: str) -> dict:
-    fh = open(filepath, "r")
-    data = json.load(fh)
-    fh.close()
-    return data
-
+n = narrator.Narrator()
 
 def main():
-    flags = load_json(".flags.json")
-    print(flags)
+    flag = narrator.Checkpoint.set_flag("boxes_unpacked", 2)
 
 
 if __name__ == "__main__":

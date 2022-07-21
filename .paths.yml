@@ -263,22 +263,20 @@
     - You boldly plunge your arm into the space between the cushions and fish around a bit...
     - ...before closing your fingers around what is unmistakably an `ink-cartridge`.
     - You pull it out. Cyan ink. Nice.
-  1:
-    - You plop onto the couch for a moment.
-    - 
-    -
-    -
-    - "That was nice," you think to yourself as you get up to your feet.
+
+    
 # gamecylinder
 8:
   0:
     - If you don't have a *functional* TV in the vicinity of the `gamecylinder.py`, there's not much to see here.
     - Bummer.
+
 # busted-television
 9:
   0:
     - This TV is hopelessly busted, and staring at it any longer would only make you sad.
     - Maybe someday you'll find a screen repair kit. That'd be convenient.
+
 # toaster
 10:
   0:
