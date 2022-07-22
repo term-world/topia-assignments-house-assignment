@@ -1,51 +1,80 @@
 # note-from-landlord
 0:
   0:
-    - There's a note addressed to you--it appears to be from your new landlord.
+    - There's a note addressed to you.
+    - It appears to be from your new landlord.
   1:
     - Heya, new tenant!
-    - Hope your travels to term-world went smoothly. The movers just got here the other day.
-    - I let them in for you--would ya believe that moving company you hired didn't label your boxes?
-    - They didn't really know what to do, so I just had them distribute them across the rooms of your house.
-    - I counted [5] boxes in total. They're scattered just about everywhere. Just a heads-up.
-    - To unpack a `moving-box.py`, just "execute" it, just like you did with this note. I'm sure you know what to do.
+    - Hope your travels to term-world went smoothly.    
+    - The movers just got here the other day.
+    - Don't worry, I let them in for you.
+    - Would ya believe that moving company you hired...
+    - ...didn't label your boxes?
+    - They didn't really know what to do,
+    - so I just had them distribute them
+    - across the rooms of your house.
+    - I counted [5] boxes in total.
+    - They're scattered just about everywhere.
+    - To unpack a `moving-box.py`,
+    - just "execute" it, just like you did with this note.
+    - I'm sure you know what to do.
   2:
-    - There's one more piece of business I'll need you to take care of, too. You never signed your lease.
+    - There's one more piece of business
+    - I'll need you to take care of, too.
+    - You never signed your lease.
     - Obviously we'll need to rectify that.
-    - Here's the deal: in order to stay "hip" with the times, our intern suggested we keep all our files *digitally*.
-    - I figured that meant we could sell our printer. So, I'm afraid we don't have a paper copy for you.
-    - (No e-signatures, unfortunately. The intern never showed me how to do that stuff.)
-    - I'm trusting you moved in with both a `printer.py` and some `ink`, yeah?
+    - Here's the deal...
+    - ...in order to stay "hip" with the times,
+    - our intern suggested we keep all our files *digitally*.
+    - I figured that meant we could sell our printer.
+    - So, I'm afraid we don't have a paper copy for you.
+    - (No e-signatures, unfortunately.
+    - The intern never showed me how to do that stuff.)
+    - I'm trusting you moved in with a `printer.py`?
   3:
-    - Thankfully every one of our state-of-the-art properties comes equipped with a cliVe unit!
-    - He's a robotic assistant that can be called at a moment's notice. No matter where you are!
-    - Just say his name! (It's case-sensitive, with a capital "V".) You'll also need a command, like "fetch".
-    - Not to mention a *thing* to fetch. I'd try out something like this...
-    -
+    - Thankfully every one of our
+    - state-of-the-art properties
+    - comes equipped with a cliVe unit!
+    - He's a robotic assistant
+    - that can be called at a moment's notice.
+    - No matter where you are!
+    - Just say his name!
+    - (It's case-sensitive, with a capital "V".)
+    - You'll also need a command, like "fetch".
+    - Not to mention a *thing* to fetch.
+    - I'd try out something like this command...
     - cliVe fetch lease
-    -
-    - He'll download that lease file for you so you can print it out.
-    - There's lots of other things he can do, too! The intern's *real* great with those units...
+    - He'll download that lease file for you
+    - so you can print it out.
+    - There's lots of other things he can do, too!
+    - The intern's *real* great with those units...
     - ...unfortunately, I had to let her go a little while back.
-    - We had a misunderstanding about compensation practices for internships.
-    - I don't really know much else about them, but you'll probably figure it out someday.
+    - We had a misunderstanding about,
+    - er, *compensation* practices for internships.
+    - I don't really know much else about them,
+    - but you'll probably figure it out someday.
   4:
     - Anyways, just get that lease printed out and signed.
     - I'll come by at some point to pick it up.
-    - That should about wrap things up here. I've gotta run.
-    - The pursuit for skilled free labor never ends for an enterprising businessman such as myself.
+    - That should about wrap things up here.
+    - I've gotta run.
+    - The pursuit for skilled free labor never ends
+    - for an enterprising businessman such as myself.
     - Good luck with the unpacking, and get me that lease ASAP.
-    -
-    - Signed,
-    -     The Landlord
+    - Your friend,
+    - The Landlord
   5:
     - You put the note back down.
   6:
-    - You've already unpacked and taken care of the lease situation.
+    - You've already unpacked.
+    - You've also taken care of the lease situation.
     - You're pretty sure you don't need this note anymore.
   7:
     - You decide to keep the note for now.
-    - Why? You appreciate a little clutter, it seems.
+    - Why?
+    - You appreciate a little clutter, maybe?
+    - Give your house that "lived-in" feel?
+    - Who knows.
   8:
     - You toss the note.
 
@@ -54,203 +83,272 @@
   0:
     - A moving box marked "FRAGILE".
   1:
-    - Inside is a very old and particularly delicate looking `printer.py`.
+    - Inside is a very old and
+    - particularly delicate looking `printer.py`.
   2:
     - You gingerly move the `printer.py` into the living-room.
-    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+    - You then return to the dining-room and look out a window,
+    - admiring the view into your backyard.
   3:
-    - You decide to keep the `printer.py` in the dining-room. That was easy.
+    - You decide to keep the `printer.py` in the dining-room.
+    - That was easy.
   4:
     - You gingerly move the `printer.py` into the kitchen.
-    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+    - You then return to the dining-room and look out a window,
+    - admiring the view into your backyard.
   5:
     - You gingerly move the `printer.py` into the hallway.
-    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+    - You then return to the dining-room and look out a window,
+    - admiring the view into your backyard.
   6:
     - You gingerly move the `printer.py` into the bedroom.
-    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+    - You then return to the dining-room and look out a window,
+    - admiring the view into your backyard.
   7:
     - You gingerly move the `printer.py` into the office.
-    - You then return to the dining-room and look out a window, admiring the view into your backyard.
+    - You then return to the dining-room and look out a window,
+    - admiring the view into your backyard.
   
 
 # ultra-heavy-moving-box (couch, box in kitchen)
 2:
   0:
-    - A moving box that's so heavy, you're fairly certain you can see the floor sagging a bit beneath it.
+    - A moving box that's so heavy,
+    - you're fairly certain you can see the floor sagging a bit.
     - That's just *great*.
   1:
-    - Inside is an entire `couch.py`, naturally. How'd they get *that* inside a box?
+    - Inside is an entire `couch.py`, naturally.
+    - How'd they get *that* inside a box?
   2:
     - You slowly push the `couch.py` into the living-room.
-    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
-    - It doesn't sound like loose change. Might be worth checking out later.
-    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+    - While doing so, you're pretty sure
+    - you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change.
+    - Might be worth checking out later.
+    - You then return to the kitchen 
+    - and spend a moment appreciating the sink. 
+    - It has *two* basins.
   3:
     - You slowly push the `couch.py` into the dining-room.
-    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
-    - It doesn't sound like loose change. Might be worth checking out later.
-    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+    - While doing so, you're pretty sure
+    - you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change.
+    - Might be worth checking out later.
+    - You then return to the kitchen 
+    - and spend a moment appreciating the sink. 
+    - It has *two* basins.
   4:
     - You push the `couch.py` up against a wall in your kitchen.
-    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
-    - It doesn't sound like loose change. Might be worth checking out later.
+    - While doing so, you're pretty sure 
+    - you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. 
+    - Might be worth checking out later.
   5:
     - You slowly push the `couch.py` into the hallway.
-    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
-    - It doesn't sound like loose change. Might be worth checking out later.
-    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+    - While doing so, you're pretty sure
+    - you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. 
+    - Might be worth checking out later.
+    - You then return to the kitchen
+    - and spend a moment appreciating the sink. 
+    - It has *two* basins.
   6:
     - You slowly push the `couch.py` into the bedroom.
-    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
-    - It doesn't sound like loose change. Might be worth checking out later.
-    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+    - While doing so, you're pretty sure
+    - you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change.
+    - Might be worth checking out later.
+    - You then return to the kitchen
+    - and spend a moment appreciating the sink. 
+    - It has *two* basins.
   7:
     - You slowly push the `couch.py` into the office.
-    - While doing so, you're pretty sure you hear the rattling of something underneath the cushions.
-    - It doesn't sound like loose change. Might be worth checking out later.
-    - You then return to the kitchen and spend a moment appreciating the sink. It has *two* basins.
+    - While doing so, you're pretty sure
+    - you hear the rattling of something underneath the cushions.
+    - It doesn't sound like loose change. 
+    - Might be worth checking out later.
+    - You then return to the kitchen 
+    - and spend a moment appreciating the sink. 
+    - It has *two* basins.
 
 # tube-shaped-moving-box (gamecylinder, box in bedroom)
 3:
   0:
     - A curiously tube-shaped cardboard box.
   1:
-    - Inside is your `gamecylinder.py`! The cylinder-shaped gaming console from yesteryear!
-    - It's cylindrical shape allows it to hold a multitude of game disks at once! Handy!
-    - ...It's a little dusty. You honestly forgot you had this.
+    - Inside is your `gamecylinder.py`! 
+    - The cylinder-shaped gaming console from yesteryear!
+    - It's cylindrical shape allows it to hold
+    - a multitude of game disks at once! Handy!
+    - ...It's a little dusty. 
+    - You honestly forgot you had this.
   2:
     - You drop off the `gamecylinder.py` in the living-room.
-    - You then return to the bedroom to inspect the baseboards. They're sufficiently baseboard-y.
+    - You then return to the bedroom 
+    - to inspect the baseboards. 
+    - They're sufficiently baseboard-y.
   3:
     - You drop off the `gamecylinder.py` in the dining-room.
-    - You then return to the bedroom to inspect the baseboards. They're sufficiently baseboard-y.
+    - You then return to the bedroom
+    - to inspect the baseboards.
+    - They're sufficiently baseboard-y.
   4:
     - You drop off the `gamecylinder.py` in the kitchen.
-    - You then return to the bedroom to inspect the baseboards. They're sufficiently baseboard-y.
+    - You then return to the bedroom
+    - to inspect the baseboards.
+    - They're sufficiently baseboard-y.
   5:
     - You drop off the `gamecylinder.py` in the hallway.
-    - You then return to the bedroom to inspect the baseboards. They're sufficiently baseboard-y.
+    - You then return to the bedroom
+    - to inspect the baseboards.
+    - They're sufficiently baseboard-y.
   6:
-    - You keep the `gamecylinder.py` right here in the bedroom. Unpacking is so *simple*!
+    - You keep the `gamecylinder.py` right here in the bedroom. 
+    - It's hard work, keeping things where they already are.
+    - But it's honest work, nonetheless.
   7:
     - You drop off the `gamecylinder.py` in the office.
-    - You then return to the bedroom to inspect the baseboards. They're sufficiently baseboard-y.
+    - You then return to the bedroom
+    - to inspect the baseboards. 
+    - They're sufficiently baseboard-y.
 
 # sinister-looking-moving-box (toaster, box in bedroom)
 4:
   0:
-    - You don't know what it is, but there's *something* about this box that gives you the chills.
+    - You don't know what it is, 
+    - but there's *something* about this box that gives you the chills.
   1:
     - Huh. It's just a `toaster.py`.
-    - Weird thing is, you don't remember owning a toaster...
+    - Weird thing is...
+    - ...you don't remember owning a toaster...
     - ...*shudder*.
   2:
-    - You pick up the `toaster.py` and you feel the hairs on your neck stand straight up. Spooky.
-    - You quickly move the `toaster.py` into the living-room before retreating back to the bedroom.
+    - You pick up the `toaster.py` 
+    - and you feel the hairs on your neck stand straight up. 
+    - Spooky.
+    - You quickly move the `toaster.py` into the living-room 
+    - before retreating back to the bedroom.
   3:
-    - You pick up the `toaster.py` and you feel the hairs on your neck stand straight up. Spooky.
-    - You quickly move the `toaster.py` into the dining-room before retreating back to the bedroom.
+    - You pick up the `toaster.py`
+    - and you feel the hairs on your neck stand straight up.
+    - Spooky.
+    - You quickly move the `toaster.py` into the dining-room
+    - before retreating back to the bedroom.
   4:
-    - You pick up the `toaster.py` and you feel the hairs on your neck stand straight up. Spooky.
-    - You quickly move the `toaster.py` into the kitchen before retreating back to the bedroom.
+    - You pick up the `toaster.py`
+    - and you feel the hairs on your neck stand straight up.
+    - Spooky.
+    - You quickly move the `toaster.py` into the kitchen
+    - before retreating back to the bedroom.
   5:
-    - You pick up the `toaster.py` and you feel the hairs on your neck stand straight up. Spooky.
-    - You quickly move the `toaster.py` into the hallway before retreating back to the bedroom.
+    - You pick up the `toaster.py`
+    - and you feel the hairs on your neck stand straight up. 
+    - Spooky.
+    - You quickly move the `toaster.py` into the hallway
+    - before retreating back to the bedroom.
   6:
-    - You hate the idea of touching this spooky `toaster.py` at all and just leave it there.
-    - Yep, sitting on your bedroom floor. Where toasters belong. Obviously.
+    - You hate the idea of touching this  spooky `toaster.py` at all
+    - and just leave it there.
+    - Yep, sitting on your bedroom floor.
+    - Where toasters belong. 
+    - Obviously.
   7:
-    - You pick up the `toaster.py` and you feel the hairs on your neck stand straight up. Spooky.
-    - You quickly move the `toaster.py` into the hallway before retreating back to the bedroom.
+    - You pick up the `toaster.py` 
+    - and you feel the hairs on your neck stand straight up. 
+    - Spooky.
+    - You quickly move the `toaster.py` into the office
+    - before retreating back to the bedroom.
 
 # beat-up-moving-box (busted-television, box in office)
 5:
   0:
-    - This moving box has taken in a few hits over the course of the move.
+    - This moving box has taken a few hits over the course of the move.
     - You hope whatever's inside is still okay...
   1:
-    - Oh, dear. It's your TV.
+    - Oh, dear. 
+    - It's your TV.
     - It's uh, taken a bit of a beating.
-    - The screen is shattered to the point that you wouldn't be able to see anything on it.
+    - The screen is shattered to the point
+    - that you wouldn't be able to see anything on it.
     - Bummer.
-    - Still, you can't just *throw away* your `busted-television.py`. That wouldn't be very green of you.
-    - You'll have to keep it *somewhere* in your house for now, until you can figure out what to do with it.
+    - Still, you can't just *throw away* your `busted-television.py`.
+    - That wouldn't be very green of you.
+    - You'll have to keep it *somewhere* in your house for now, 
+    - at least until you can figure out what to do with it.
   2:
     - You morosely lug the `busted-television.py` into the living-room.
     - It may be an eyesore, but it's *your* eyesore.
-    - You then saunter back to the office, wondering what it is that makes an office an office.
+    - You then saunter back to the office,
+    - wondering what it is that makes an office an office.
   3:
     - You morosely lug the `busted-television.py` into the dining-room.
     - It may be an eyesore, but it's *your* eyesore.
-    - You then saunter back to the office, wondering what it is that makes an office an office.
+    - You then saunter back to the office,
+    - wondering what it is that makes an office an office.
   4:
     - You morosely lug the `busted-television.py` into the kitchen.
     - It may be an eyesore, but it's *your* eyesore.
-    - You then saunter back to the office, wondering what it is that makes an office an office.
+    - You then saunter back to the office,
+    - wondering what it is that makes an office an office.
   5:
     - You morosely lug the `busted-television.py` into the hallway.
     - It may be an eyesore, but it's *your* eyesore.
-    - You then saunter back to the office, wondering what it is that makes an office an office.
+    - You then saunter back to the office,
+    - wondering what it is that makes an office an office.
   6:
     - You morosely lug the `busted-television.py` into the bedroom.
     - It may be an eyesore, but it's *your* eyesore.
-    - You then saunter back to the office, wondering what it is that makes an office an office.
+    - You then saunter back to the office,
+    - wondering what it is that makes an office an office.
   7:
-    - You opt to keep the `busted-television.py` right where it is, in the office.
+    - You opt to keep the `busted-television.py` right where it is,
+    - in the office.
     - It may be an eyesore, but it's *your* eyesore.
 
 # printer
 6:
   0:
-    - You start up the printer, but all you get for your trouble is a warning message:
-    -
-    - LOW ON CYAN INK. REPLACE CYAN INK.
-    -
+    - You start up the printer,
+    - but all you get for your trouble is a warning message.
+    - LOW ON CYAN INK. 
+    - REPLACE CYAN INK.
     - Guess you've got some ink to track down.
 
   1:
-    - You start up the printer...but you realize you haven't queued up any print jobs.
-    - You'll need to download a file to print first, somehow...
+    - You start up the printer...
+    - ...but you realize you haven't queued up any print jobs.
+    - You'll need to download a file to print first, somehow.
+    - Maybe that note from the landlord has some advice?
   2:
-    - You start up the printer, and see the lease at the top of the print queue.
+    - You start up the printer, 
+    - and you see the lease at the top of the print job queue.
     - Thanks, cliVe.
-    - No warnings about low ink, either. You're good to go!
-    - You hit the print button, and at first nothing seems to happen...
-    -
+    - No warnings about low ink, either. 
+    - You're good to go!
+    - You hit the print button, 
+    - and at first nothing seems to happen...
     - ...then you hear a whirring sound starting up...
-    - 
-    - ...and slowly, a piece of paper starts peeking out of the printer's print tray...
-    -
+    - ...and slowly, a piece of paper...
+    - ...starts peeking out of the printer's print tray...
     - ...*very* slowly, that is...
-    -
     - ...you feel like you might be here a moment...
-    -
     - ...you forgot how old your printer was...
-    -
     - ...if you had a dime to your name...
-    -
     - ...you'd consider replacing it...
-    -
-    - ...you see about half a sheet of paper sticking out of the printer now...
-    -
+    - ...you see about half a sheet of paper
+    - ...sticking out of the printer now...
     - ...still about half to go, though...
-    -
     - ...you look around the room you're in...
-    -
-    - ...as good a place as any for a printer, you guess...
-    -
+    - ...as good a place as any for a printer...
+    - ...you guess...
     - ...the feng shui feels a little off...
-    -
     - ...but you'll live...
-    -
     - ...almost there...
-    -
     - ...so very close...
-    -
     - ...aaaaaand...
-    -
     - DONE!
+    - Hopefully you won't have to print anything again.
+    - Like, ever.
     - You grab the lease and sign it.
     - You don't know exactly *when* the landlord's going to come for it.
     - So for now, you fold it up and stick it in your pocket.
@@ -259,23 +357,30 @@
 # couch
 7:
   0:
-    - There was something rattling around underneath the cushions when you were moving the couch earlier.
-    - You boldly plunge your arm into the space between the cushions and fish around a bit...
+    - You recall was something rattling around underneath the cushions
+    - when you were moving the couch earlier.
+    - You boldly plunge your arm into the space between the cushions...
+    - ...and fish around a bit...
     - ...before closing your fingers around what is unmistakably an `ink-cartridge`.
-    - You pull it out. Cyan ink. Nice.
+    - You pull it out.
+    - Cyan ink.
+    - Nice.
 
     
 # gamecylinder
 8:
   0:
-    - If you don't have a *functional* TV in the vicinity of the `gamecylinder.py`, there's not much to see here.
+    - If you don't have a *functional* TV in the vicinity of the `gamecylinder.py`,
+    - there won't be much to see here.
     - Bummer.
 
 # busted-television
 9:
   0:
-    - This TV is hopelessly busted, and staring at it any longer would only make you sad.
-    - Maybe someday you'll find a screen repair kit. That'd be convenient.
+    - This TV is hopelessly busted. 
+    - Staring at it any longer would only make you sad.
+    - Maybe someday you'll find a screen repair kit.
+    - That'd be convenient.
 
 # toaster
 10:
@@ -283,16 +388,24 @@
     - Yep, this toaster is definitely haunted.
     - You can just *feel* this ominous energy coming from it.
   1:
-    - You don't even have any bread, but still you press down on the toaster lever.
+    - You don't even have any bread, 
+    - but still you press down on the toaster lever.
+    - You feel like you *have* to.
     - A horrible, *horrible* noise emits from the toaster.
-    - You'd describe it as a metallic screeching combined with a sort of wet pulsing.
+    - You'd describe it as a metallic screeching
+    - combined with a sort of nightmarish wet pulsing.
     - It's hard to describe, really.
-    - But as suddenly as the sound fills the room, it stops.
-    - The toaster dings, and sure enough, two slices of perfectly toasted bread are in the toaster's slots.
+    - But as suddenly as the sound fills the room,
+    - it stops.
+    - The toaster dings,
+    - and sure enough,
+    - two slices of perfectly toasted bread are in the toaster's slots.
     - No way are you eating haunted toast though.
-    - You grab the toast, and for a second you feel...unwell.
-    - You promptly chuck the toast out the window and feel at ease again.
-    - Spooky.
+    - You grab the toast, 
+    - and for a second you feel...unwell.
+    - You promptly chuck the toast out the window
+    - and suddenly you feel at ease again.
+    - Phew.
   2:
     - You walk away from the undeniably haunted toaster.
     - A wise decision, you feel.
