@@ -67,6 +67,7 @@ def main():
                     if n.path.scene != 6:
                         binary_ask("Continue reading?", 0.4, 0.5)
                         n.narrate()
+                        Checkpoint.set_flag("note_read")
 
 
 if __name__ == "__main__":

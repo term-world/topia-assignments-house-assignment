@@ -112,6 +112,8 @@
     - You gingerly move the `printer.py` into the office.
     - You then return to the dining-room and look out a window,
     - admiring the view into your backyard.
+  8:
+    - You step away from the box.
   
 
 # ultra-heavy-moving-box (couch, box in kitchen)
@@ -174,6 +176,8 @@
     - You then return to the kitchen 
     - and spend a moment appreciating the sink. 
     - It has *two* basins.
+  8:
+    - You step away from the box.
 
 # tube-shaped-moving-box (gamecylinder, box in bedroom)
 3:
@@ -215,12 +219,15 @@
     - You then return to the bedroom
     - to inspect the baseboards. 
     - They're sufficiently baseboard-y.
+  8:
+    - You step away from the box.
 
 # sinister-looking-moving-box (toaster, box in bedroom)
 4:
   0:
     - You don't know what it is, 
-    - but there's *something* about this box that gives you the chills.
+    - but there's *something* about this box 
+    - that gives you the chills.
   1:
     - Huh. It's just a `toaster.py`.
     - Weird thing is...
@@ -251,7 +258,8 @@
     - You quickly move the `toaster.py` into the hallway
     - before retreating back to the bedroom.
   6:
-    - You hate the idea of touching this  spooky `toaster.py` at all
+    - You hate the idea of touching
+    - this spooky `toaster.py` at all
     - and just leave it there.
     - Yep, sitting on your bedroom floor.
     - Where toasters belong. 
@@ -262,11 +270,14 @@
     - Spooky.
     - You quickly move the `toaster.py` into the office
     - before retreating back to the bedroom.
+  8:
+    - You step away from the box.
 
 # beat-up-moving-box (busted-television, box in office)
 5:
   0:
-    - This moving box has taken a few hits over the course of the move.
+    - This moving box has taken a few hits
+    - over the course of the move.
     - You hope whatever's inside is still okay...
   1:
     - Oh, dear. 
@@ -308,6 +319,8 @@
     - You opt to keep the `busted-television.py` right where it is,
     - in the office.
     - It may be an eyesore, but it's *your* eyesore.
+  8:
+    - You step away from the box.
 
 # printer
 6:
@@ -365,12 +378,12 @@
     - when you were moving the couch earlier.
     - You boldly plunge your arm into the space between the cushions...
     - ...and fish around a bit...
-    - ...before closing your fingers around what is unmistakably an `ink-cartridge`.
+    - ...before closing your fingers around
+    - what is unmistakably an `ink-cartridge`.
     - You pull it out.
     - Cyan ink.
     - Nice.
 
-    
 # gamecylinder
 8:
   0:
