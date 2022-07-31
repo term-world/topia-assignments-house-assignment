@@ -2,3 +2,13 @@ for line in "$(cat nameplate.md)"
 do
   echo "$line";
 done
+
+if [[ "$(jq .office .flags)" == null ]]; then
+  python -c "import os
+from narrator import Checkpoint
+Checkpoint.set_flag('cwd', os.getcwd())
+Checkpoint.set_flag('living-room', 'living-room')
+for parent, children, files in os.walk('living-room'):
+  for child in children:
+    Checkpoint.set_flag(child, f'{parent}/{child}')"
+fi

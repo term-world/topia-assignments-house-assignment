@@ -1,78 +1,51 @@
-import narrator
-from narrator import Checkpoint
-import gitit
 import os
+import gitit
+import narrator
 
-n = narrator.Narrator()
+from narrator import Checkpoint
 
 def main():
-    n.path.change(2.0)
+
+    n = narrator.Narrator()
+    n.path.change(2)
     n.narrate()
+    
     q = narrator.YesNoQuestion({
         "question": "Open the box?",
         "outcomes": [2.1, 2.8]
     })
+    
     n.path.change(q.ask())
-    if n.path.scene == 1:
-        n.narrate()
-        q = narrator.Question({
-            "question": "Where will you place the `couch.py`?",
-            "responses": [
-                {"choice": "living-room", "outcome": 2.2},
-                {"choice": "dining-room", "outcome": 2.3},
-                {"choice": "kitchen", "outcome": 2.4},
-                {"choice": "hallway", "outcome": 2.5},
-                {"choice": "bedroom", "outcome": 2.6},
-                {"choice": "office", "outcome": 2.7}
-            ]
-        })
-        n.path.change(q.ask())
-        n.narrate()
-        if n.path.scene == 3:
-            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/couch.py",
-            "../../couch.py")
-            unpacked = Checkpoint.check_flag("boxes_unpacked")
-            unpacked += 1
-            Checkpoint.set_flag("boxes_unpacked", unpacked)
-            os.remove("ultra-heavy-moving-box.py")
-        elif n.path.scene == 4:
-            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/couch.py",
-            "../couch.py")
-            unpacked = Checkpoint.check_flag("boxes_unpacked")
-            unpacked += 1
-            Checkpoint.set_flag("boxes_unpacked", unpacked)
-            os.remove("ultra-heavy-moving-box.py")
-        elif n.path.scene == 5:
-            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/couch.py",
-            "couch.py")
-            unpacked = Checkpoint.check_flag("boxes_unpacked")
-            unpacked += 1
-            Checkpoint.set_flag("boxes_unpacked", unpacked)
-            os.remove("ultra-heavy-moving-box.py")
-        elif n.path.scene == 6:
-            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/couch.py",
-            "../../hallway/couch.py")
-            unpacked = Checkpoint.check_flag("boxes_unpacked")
-            unpacked += 1
-            Checkpoint.set_flag("boxes_unpacked", unpacked)
-            os.remove("ultra-heavy-moving-box.py")
-        elif n.path.scene == 7:
-            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/couch.py",
-            "../../hallway/bedroom/couch.py")
-            unpacked = Checkpoint.check_flag("boxes_unpacked")
-            unpacked += 1
-            Checkpoint.set_flag("boxes_unpacked", unpacked)
-            os.remove("ultra-heavy-moving-box.py")
-        elif n.path.scene == 8:
-            gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/couch.py",
-            "../../hallway/office/couch.py")
-            unpacked = Checkpoint.check_flag("boxes_unpacked")
-            unpacked += 1
-            Checkpoint.set_flag("boxes_unpacked", unpacked)
-            os.remove("ultra-heavy-moving-box.py")
-    else:
-        n.narrate()
 
+    n.narrate()
+
+    if n.path.scene == 9:
+        return
+
+    q = narrator.Question({
+        "question": "Where will you place the `Couch.py`?",
+        "responses": [
+            {"choice": "living-room", "outcome": 2.2},
+            {"choice": "dining-room", "outcome": 2.3},
+            {"choice": "kitchen", "outcome": 2.4},
+            {"choice": "hallway", "outcome": 2.5},
+            {"choice": "bedroom", "outcome": 2.6},
+            {"choice": "office", "outcome": 2.7}
+        ]
+    })
+
+    n.path.change(q.ask())
+
+    cwd = Checkpoint.check_flag("cwd")
+    location = Checkpoint.check_flag(q.choice)
+    gitit.get(file_name = "Couch.py")
+    os.rename(
+        "Couch.py",
+        f"{cwd}/{location}/Couch.py"
+    )
+    print(f"🛋️ >-MOVED-> {q.choice}")
+    boxes_unpacked = Checkpoint.check_flag("unpacked")
+    Checkpoint.set_flag("unpacked", boxes_unpacked + 1)
 
 if __name__ == "__main__":
     main()

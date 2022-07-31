@@ -1,18 +1,36 @@
-import narrator
-from narrator import Checkpoint
-import gitit
 import os
+import narrator
 
-n = narrator.Narrator()
+from narrator import Checkpoint
+from inventory.Item import FixtureSpec
+
+class FragileBox(FixtureSpec):
+
+    import gitit
+
+    def __init__(self):
+        super().__init__()
+    
+    def use():
+        gitit.grab_file(
+            "https://raw.githubusercontent.com/term-world/world-additions/main/week-0-additions/printer.py",
+            "../printer.py"
+        )
 
 def main():
+    n = narrator.Narrator()
+    
     n.path.change(1.0)
+    
     n.narrate()
+    
     q = narrator.YesNoQuestion({
         "question": "Open the box?",
         "outcomes": [1.1, 1.8]
     })
+    
     n.path.change(q.ask())
+    
     if n.path.scene == 1:
         n.narrate()
         q = narrator.Question({
