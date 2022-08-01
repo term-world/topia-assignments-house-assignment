@@ -3,6 +3,12 @@ import gitit
 import narrator
 
 from narrator import Checkpoint
+from inventory.Item import BoxSpec
+
+class UltraHeavyMovingBox(BoxSpec):
+
+    pass
+
 
 def main():
 
@@ -38,11 +44,10 @@ def main():
 
     cwd = Checkpoint.check_flag("cwd")
     location = Checkpoint.check_flag(q.choice)
-    gitit.get(file_name = "Couch.py")
-    os.rename(
-        "Couch.py",
-        f"{cwd}/{location}/Couch.py"
-    )
+    
+    box = UltraHeavyMovingBox()
+    inventory.Items.use("box",action="unpack,items="Couch.py")
+
     print(f"🛋️ >-MOVED-> {q.choice}")
     boxes_unpacked = Checkpoint.check_flag("unpacked")
     Checkpoint.set_flag("unpacked", boxes_unpacked + 1)
