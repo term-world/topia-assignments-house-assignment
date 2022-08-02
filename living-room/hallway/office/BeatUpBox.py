@@ -45,7 +45,7 @@ def main():
     cwd = Checkpoint.check_flag("cwd")
     location = Checkpoint.check_flag(q.choice)
 
-    box = FragileBox()
+    box = BeatUpBox()
     box.use(action="unpack",items="BustedTV.py")
 
     os.rename(
