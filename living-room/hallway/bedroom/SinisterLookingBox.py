@@ -45,7 +45,7 @@ def main():
     cwd = Checkpoint.check_flag("cwd")
     location = Checkpoint.check_flag(q.choice)
     
-    box = UltraHeavyBox()
+    box = SinisterLookingBox()
     box.use(action="unpack",items="Toaster.py")
 
     os.rename(

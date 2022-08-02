@@ -49,7 +49,7 @@ def main():
     cwd = Checkpoint.check_flag("cwd")
     location = Checkpoint.check_flag(q.choice)
     
-    box = UltraHeavyBox()
+    box = TubeShapedBox()
     box.use(action="unpack",items="GameCylinder.py")
 
     os.rename(
