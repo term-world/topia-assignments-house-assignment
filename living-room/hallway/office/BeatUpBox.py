@@ -2,21 +2,21 @@ import os
 import narrator
 
 from narrator import Checkpoint
-from inventory.Item import FixtureSpec
+from inventory.Item import BoxSpec
 
-class FragileBox(FixtureSpec):
+class BeatUpBox(BoxSpec):
 
     pass
 
 def main():
-    
+
     n = narrator.Narrator()
-    n.path.change(1)
+    n.path.change(5.0)
     n.narrate()
     
     q = narrator.YesNoQuestion({
         "question": "Open the box?",
-        "outcomes": [1.1, 1.8]
+        "outcomes": [5.1, 5.8]
     })
     
     n.path.change(q.ask())
@@ -27,14 +27,14 @@ def main():
         return
     
     q = narrator.Question({
-        "question": "Where will you place the `printer.py`?",
+        "question": "Where will you place the `busted-tv.py`?",
         "responses": [
-            {"choice": "living-room", "outcome": 1.2},
-            {"choice": "dining-room", "outcome": 1.3},
-            {"choice": "kitchen", "outcome": 1.4},
-            {"choice": "hallway", "outcome": 1.5},
-            {"choice": "bedroom", "outcome": 1.6},
-            {"choice": "office", "outcome": 1.7}
+            {"choice": "living-room", "outcome": 5.2},
+            {"choice": "dining-room", "outcome": 5.3},
+            {"choice": "kitchen", "outcome": 5.4},
+            {"choice": "hallway", "outcome": 5.5},
+            {"choice": "bedroom", "outcome": 5.6},
+            {"choice": "office", "outcome": 5.7}
         ]
     })
 
@@ -46,17 +46,16 @@ def main():
     location = Checkpoint.check_flag(q.choice)
 
     box = FragileBox()
-    box.use(action="unpack",items="Printer.py")
+    box.use(action="unpack",items="BustedTV.py")
 
     os.rename(
-        "Printer.py",
-        f"{cwd}/{location}/Printer.py"
+        "BustedTV.py",
+        f"{cwd}/{location}/BustedTV.py"
     )
 
-    print(f"🖶 >-MOVED-> {q.choice}")
+    print(f"📺 >-MOVED-> {q.choice}")
     boxes_unpacked = Checkpoint.check_flag("unpacked")
     Checkpoint.set_flag("unpacked", boxes_unpacked + 1)
-
 
 if __name__ == "__main__":
     main()
