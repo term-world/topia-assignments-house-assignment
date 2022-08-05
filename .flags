@@ -1,14 +1,3 @@
 {
-  "note_read": 0,
-  "boxes_unpacked": 0,
-  "ink_collected": 0,
-  "lease_printed": 0,
-  "cwd": "/world/city/Folivoria/dluman/user-house",
-  "living-room": "living-room",
-  "dining-room": "living-room/dining-room",
-  "hallway": "living-room/hallway",
-  "kitchen": "living-room/dining-room/kitchen",
-  "bedroom": "living-room/hallway/bedroom",
-  "office": "living-room/hallway/office",
-  "unpacked": 4
+
 }
