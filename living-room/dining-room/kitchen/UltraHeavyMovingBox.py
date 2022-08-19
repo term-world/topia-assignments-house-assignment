@@ -51,8 +51,10 @@ def main():
 
     os.rename(
         "Couch.py",
-        f"{cwd}/{q.choice}/Couch.py"
+        f"{cwd}/{location}/Couch.py"
     )
+
+    Checkpoint.set_flag("ink", f"{cwd}/{location}")
 
     print(f"🛋️ >-MOVED-> {q.choice}")
     boxes_unpacked = Checkpoint.check_flag("unpacked")

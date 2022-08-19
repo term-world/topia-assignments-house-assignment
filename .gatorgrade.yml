@@ -7,12 +7,15 @@
         fragment: TODO
         count: 0
         exact: true
-# ITEMS
+# ITEMS <-- TODO: write flags for object locations
 - description: Find the Ink hidden in the couch
-  check: ConfirmFileExists
+  check: ExecuteCommand
   options:
-    file: Ink.py
-    dir: living-room/dining-room
+    command: ls $(jq .ink .flags)/Ink.py
+- description: Print the lease
+  check: ExecuteCommand
+  options:
+    command: ls $(jq .printer .flags)/Lease.py
 # EVENTS
 - description: Enter the house
   check: ExecuteCommand

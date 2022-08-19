@@ -53,6 +53,8 @@ def main():
         f"{cwd}/{location}/Printer.py"
     )
 
+    Checkpoint.set_flag("printer", f"{cwd}/{location}")
+
     print(f"🖶 >-MOVED-> {q.choice}")
     boxes_unpacked = Checkpoint.check_flag("unpacked")
     Checkpoint.set_flag("unpacked", boxes_unpacked + 1)
