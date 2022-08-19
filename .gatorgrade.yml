@@ -1,0 +1,51 @@
+# BASE DIR
+- ./:
+  - nameplate.md:
+    - description: Customize the nameplate (no TODOs)
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+# ITEMS
+- description: Find the Ink hidden in the couch
+  check: ConfirmFileExists
+  options:
+    file: Ink.py
+    dir: living-room/dining-room
+# EVENTS
+- description: Enter the house
+  check: ExecuteCommand
+  options:
+    command: jq .kitchen .flags
+# BOXES
+- description: Open the UltraHeavyMovingBox
+  check: CountCommandOutput
+  options:
+    command: ls -l living-room/dining-room/kitchen/UltraHeavyMovingBox.py
+    count: 0
+    exact: true
+- description: Open the FragileMovingBox
+  check: CountCommandOutput
+  options:
+    command: ls -l living-room/dining-room/FragileMovingBox.py
+    count: 0
+    exact: true
+- description: Open the SinisterLookingBox
+  check: CountCommandOutput
+  options:
+    command: ls -l living-room/hallway/bedroom/SinisterLookingBox.py
+    count: 0
+    exact: true
+- description: Open the TubeShapedBox
+  check: CountCommandOutput
+  options:
+    command: ls -l living-room/hallway/bedroom/TubeShapesBox.py
+    count: 0
+    exact: true
+- description: Open the BeatUpBox
+  check: CountCommandOutput
+  options:
+    command: ls -l living-room/hallway/office/BeatUpBox.py
+    count: 0
+    exact: true

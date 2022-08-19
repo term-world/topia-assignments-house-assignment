@@ -1,3 +1,9 @@
 {
-
+  "cwd": "/world/city/Folivoria/dluman/user-house",
+  "living-room": "living-room",
+  "hallway": "living-room/hallway",
+  "dining-room": "living-room/dining-room",
+  "office": "living-room/hallway/office",
+  "bedroom": "living-room/hallway/bedroom",
+  "kitchen": "living-room/dining-room/kitchen"
 }
