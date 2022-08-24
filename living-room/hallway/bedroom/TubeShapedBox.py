@@ -27,7 +27,7 @@ def main():
         return
 
     q = narrator.Question({
-        "question": "Where will you place the `gamecylinder.py`?",
+        "question": "Where will you place the `GameCylinder.py`?",
         "responses": [
             {"choice": "living-room", "outcome": 3.2},
             {"choice": "dining-room", "outcome": 3.3},

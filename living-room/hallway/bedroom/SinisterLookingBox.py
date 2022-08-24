@@ -27,7 +27,7 @@ def main():
         return
     
     q = narrator.Question({
-        "question": "Where will you place the `toaster.py`?",
+        "question": "Where will you place the `Toaster.py`?",
         "responses": [
             {"choice": "living-room", "outcome": 4.2},
             {"choice": "dining-room", "outcome": 4.3},
