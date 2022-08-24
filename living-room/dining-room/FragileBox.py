@@ -4,7 +4,7 @@ import narrator
 from narrator import Checkpoint
 from inventory.Item import FixtureSpec
 
-class FragileBox(FixtureSpec):
+class FragileBox(BoxSpec):
 
     pass
 
