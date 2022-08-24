@@ -22,16 +22,16 @@
   options:
     command: jq .kitchen .flags
 # BOXES
-- description: Open the UltraHeavyMovingBox
+- description: Open the UltraHeavyBox
   check: CountCommandOutput
   options:
-    command: ls -l living-room/dining-room/kitchen/UltraHeavyMovingBox.py
+    command: ls -l living-room/dining-room/kitchen/UltraHeavyBox.py
     count: 0
     exact: true
-- description: Open the FragileMovingBox
+- description: Open the FragileBox
   check: CountCommandOutput
   options:
-    command: ls -l living-room/dining-room/FragileMovingBox.py
+    command: ls -l living-room/dining-room/FragileBox.py
     count: 0
     exact: true
 - description: Open the SinisterLookingBox
@@ -43,7 +43,7 @@
 - description: Open the TubeShapedBox
   check: CountCommandOutput
   options:
-    command: ls -l living-room/hallway/bedroom/TubeShapesBox.py
+    command: ls -l living-room/hallway/bedroom/TubeShapedBox.py
     count: 0
     exact: true
 - description: Open the BeatUpBox
