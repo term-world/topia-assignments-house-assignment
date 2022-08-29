@@ -9,21 +9,29 @@
         exact: true
 # ITEMS <-- TODO: write flags for object locations
 - description: Find the Ink hidden in the couch
-  check: ExecuteCommand
+  check: CountCommandOutput
   options:
+    count: 1
     command: find . -name Ink.py
 - description: Print the lease
-  check: ExecuteCommand
+  check: CountCommandOutput
   options:
+    count: 1
     command: find . -name Lease.md
 # EVENTS
 - description: Enter the house
-  check: ExecuteCommand
+  check: MatchCommandFragment
   options:
+    fragment: "null"
+    count: 0
+    exact: true
     command: jq .kitchen .flags
 - description: Read the note
-  check: ExecuteCommand
+  check: MatchCommandFragment
   options:
+    fragment: "null"
+    count: 0
+    exact: true
     command: jq .note_read .flags
 # BOXES
 - description: Open the UltraHeavyBox
