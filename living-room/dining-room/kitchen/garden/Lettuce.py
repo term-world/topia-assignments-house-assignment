@@ -10,6 +10,7 @@ class Lettuce(ItemSpec):
 
 def main():
   Acquire(sys.argv[0])
+  print("🥬 ACQUIRED 1 LETTUCE 🥬")
 
 if __name__ == "__main__":
   main()

@@ -10,6 +10,7 @@ class Tomato(ItemSpec):
 
 def main():
   Acquire(sys.argv[0])
+  print("🍅 ACQUIRED 1 TOMATO 🍅")
 
 if __name__ == "__main__":
   main()
