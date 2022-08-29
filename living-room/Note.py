@@ -53,9 +53,13 @@ def main():
         })
         n.path.change(q.ask())
         n.narrate()
+        if n.path.scene == 3:
+            n.narrate()
+            Checkpoint.set_flag("note_read", True)
+            n.narrate()
+            return
         if n.path.scene == 5:
-            break
-    Checkpoint.set_flag("note_read", True)
+            return
 
 if __name__ == "__main__":
     main()
