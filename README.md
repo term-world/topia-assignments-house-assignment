@@ -6,7 +6,7 @@
 >
 > 31 August 2022
 
-`(Ix)` — For months now, the neighborhoods in the suburbs of `term-world` have been ghost towns. The once-bustling streets of communities like `Andra` and `Folivoria` have been host to little more than the occasional tumbleweed ever since local property owner **The Landlord** raised rent rates to untenable levels in an attempt to only bring the best and brightest (and wealthiest) to our fair `term-world`.
+`(Andra)` — For months now, the neighborhoods in the suburbs of `term-world` have been ghost towns. The once-bustling streets of communities like `Andra` and `Folivoria` have been host to little more than the occasional tumbleweed ever since local property owner **The Landlord** raised rent rates to untenable levels in an attempt to only bring the best and brightest (and wealthiest) to our fair `term-world`.
 
 In our exclusive interview with **The Landlord**, it was revealed that his able assistant **The Intern** argued that even properties with rock-bottom rent rates bring in more bacon than abandoned abodes. So, in a move that could only be called "inspired," "obvious," or maybe even "capitalistically altruistic," **The Landlord** is slashing rates to less than a tenth of what they once were. That's right, you'll no longer need a six-figure income to call one of these fine houses with three-figure square footage yours.
 
@@ -22,6 +22,8 @@ In this activity, we cover:
 * executing Python files
 * an introduction to using the `git` protocol
 * an overview of the GitHub platform
+
+The requirements of this exercise center on your ability to find your way around your house, unpack some boxes, remembering where you put things you unpack. You'll solve a few small puzzles in order to complete your lease and verify that your house is outfitted and working correctly.
 
 ### SSH Keys
 
@@ -57,7 +59,7 @@ This takes some time to adjust to, getting moved in to your house will give you 
 
 ### Getting contents of your house
 
-Right now, the house is pretty empty. The output of another command, `ls` will show you this. Like `cd`, `ls` is short for something. In this case: "list." Given that there's nothing there, it would be helpful to have _stuff_. 
+Right now, the house is pretty empty. The output of another command, `ls` will show you this. Like `cd`, `ls` is short for something. In this case: "list." Given that there's nothing there, it would be helpful to have _stuff_. Any time you want to _list_ a directory (i.e. see what's there) just type `ls` and press `Enter`.
 
 If you've navigated away from your `house` folder, `cd` back to it. However, if you're there, we can populate your house with your things. They're currently stored on GitHub, the platform we use to do something called "versioning" our files. As with everything in our time in `term-world`, we'll get plenty more experience with the customs and protocols of living in our digital society.
 
@@ -90,6 +92,32 @@ To assist with your wayfinding, all of the houses built in the various neighborh
 | LIVING-ROOM | -- | HALLWAY | -- | OFFICE |
  -------------      ---------      --------
 ```
+
+Each of these locations represent folders that you'll need to traverse in order to achieve the goals for this assignment. Notice that in several locations, "you can't get there from here," as the saying goes; in some occasions there are _dead ends_. You'll need to practice moving from folder to folder using both ["forward" and "backward"](#basic-navigation) directions.
+
+### Unpacking a box
+
+There are `5` boxes scattered throughout your house. Your job is to unpack them.
+
+Each box is a Python file -- this is the language that we'll be using to conduct this course. They work, well, "out of the box," so there's no need to change or even look at any code. To open a box, let's say the `FragileBox.py` that's in the `kitchen`:
+
+```
+python FragileBox.py
+```
+
+`term-world` will narrate some of the story of the world and give you a choice of where to put the contents. You _can_ put items anywhere your house, but do you really need a `Couch.py` in the `kitchen`?
+
+(Someone is reading this right now and thinking "Yeah, I _do_!")
+
+#### An important lesson about `term-world`
+
+If there exists only one rule about `term-world`, it's that you can _use anything_ you have the permission to use. Given the lesson we learned about opening boxes above, the `python` command seems to make this happen for us. So, if you were to find a `Couch.py` somewhere in your house, it might be interesting to
+
+```
+python Couch.py
+``` 
+
+Something equally curious _might_ happen.
 
 ## `Evaluating house Content`
 
