@@ -43,10 +43,6 @@ def main():
     
     n.narrate()
 
-    n.path.change(q.ask())
-
-    n.narrate()
-
     cwd = Checkpoint.check_flag("cwd")
     location = Checkpoint.check_flag(q.choice)
     

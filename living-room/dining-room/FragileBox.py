@@ -2,7 +2,7 @@ import os
 import narrator
 
 from narrator import Checkpoint
-from inventory.Item import FixtureSpec
+from inventory.Item import BoxSpec
 
 class FragileBox(BoxSpec):
 
