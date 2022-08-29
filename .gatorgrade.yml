@@ -11,16 +11,20 @@
 - description: Find the Ink hidden in the couch
   check: ExecuteCommand
   options:
-    command: ls $(jq .ink .flags)/Ink.py
+    command: find . -name Ink.py
 - description: Print the lease
   check: ExecuteCommand
   options:
-    command: ls $(jq .printer .flags)/Lease.py
+    command: find . -name Lease.md
 # EVENTS
 - description: Enter the house
   check: ExecuteCommand
   options:
     command: jq .kitchen .flags
+- description: Read the note
+  check: ExecuteCommand
+  options:
+    command: jq .note_read .flags
 # BOXES
 - description: Open the UltraHeavyBox
   check: CountCommandOutput

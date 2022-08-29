@@ -6,7 +6,8 @@ from inventory.Item import FixtureSpec
 
 class FragileBox(BoxSpec):
 
-    pass
+    def __init__(self):
+        super().__init__(__file__)
 
 def main():
     

@@ -6,7 +6,8 @@ from inventory.Item import BoxSpec
 
 class SinisterLookingBox(BoxSpec):
 
-    pass
+    def __init__(self):
+        super().__init__(__file__)
 
 def main():
     
