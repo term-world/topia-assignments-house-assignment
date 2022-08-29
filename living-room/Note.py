@@ -5,7 +5,6 @@ import os
 n = narrator.Narrator()
 
 def main():
-
     unpacked = Checkpoint.check_flag("boxes_unpacked")
     lease_printed = bool(Checkpoint.check_flag("lease_printed"))
     
@@ -45,6 +44,8 @@ def main():
     })
     n.path.change(q.ask())
     n.narrate()
+    if n.path.scene == 5:
+        return
     while n.path.scene < 6:
         q = narrator.YesNoQuestion({
             "question": "Continue reading",
@@ -52,6 +53,8 @@ def main():
         })
         n.path.change(q.ask())
         n.narrate()
+        if n.path.scene == 5:
+            break
     Checkpoint.set_flag("note_read", True)
 
 if __name__ == "__main__":
