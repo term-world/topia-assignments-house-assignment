@@ -10,7 +10,7 @@
 
 In our exclusive interview with **The Landlord**, it was revealed that his able assistant **The Intern** argued that even properties with rock-bottom rent rates bring in more bacon than abandoned abodes. So, in a move that could only be called "inspired," "obvious," or maybe even "capitalistically altruistic," **The Landlord** is slashing rates to less than a tenth of what they once were. That's right, you'll no longer need a six-figure income to call one of these fine houses with three-figure square footage yours.
 
-Word must've gotten out; nearly fifty new tenants have applied to live in the six neighborhoods owned and maintained by **The Landlord**. Only time will tell what these wide-eyed tenants will bring to `term-world`. ...
+Word must've gotten out; nearly fifty new tenants have applied to live in the six neighborhoods owned and maintained by **The Landlord**. Only time will tell what these wide-eyed tenants will bring to `term-world`...
 
 ## Overview
 
@@ -45,7 +45,7 @@ cd ~/house
 cd ..
 ```
 
-takes us back to the folder we were just in. You can always tell where you are by looking at your `command prompt` -- the text before the blocky cursor that indicates where you're typing. The follwing prompt:
+takes us back to the folder we were just in. You can always tell where you are by looking at your `command prompt` -- the text before the blocky cursor that indicates where you're typing. The following prompt:
 
 ```
  user    server   location
@@ -53,21 +53,17 @@ takes us back to the folder we were just in. You can always tell where you are b
 dluman@term-world:~$
 ```
 
-tells us that we're, well, ourselves (for me, it's `dluman`) on the `term-world` server, at the `~` location (think of `~` as a shortcut to your _home_ directory (which is different from your _house_).
+tells us that we're, well, ourselves (for me, it's `dluman`) on the `term-world` server, at the `~` location (think of `~` as a shortcut to your _home_ directory, which is different from your _house_).
 
-This takes some time to adjust to, getting moved in to your house will give you more than enough practice.
+This takes some time to adjust to; getting moved in to your house will give you more than enough practice.
 
-### Getting contents of your house
+### Getting the contents of your `house`
 
-Right now, the house is pretty empty. The output of another command, `ls` will show you this. Like `cd`, `ls` is short for something. In this case: "list." Given that there's nothing there, it would be helpful to have _stuff_. Any time you want to _list_ a directory (i.e. see what's there) just type `ls` and press `Enter`.
+Right now, the house is pretty empty. The output of another command, `ls` will show you this. Like `cd`, `ls` is short for something. In this case: "list." Given that there's nothing there, it would be helpful to have _stuff_. Any time you want to _list_ a directory (i.e., see what's there) just type `ls` and press `Enter`.
 
 If you've navigated away from your `house` folder, `cd` back to it. However, if you're there, we can populate your house with your things. They're currently stored on GitHub, the platform we use to do something called "versioning" our files. As with everything in our time in `term-world`, we'll get plenty more experience with the customs and protocols of living in our digital society.
 
-```
-TODO: POST ASSIGNMENT LINK
-```
-
-Once you've done that:
+Once you're in your `house folder`:
 
 ```
 git pull
@@ -75,7 +71,7 @@ git pull
 
 This will `pull` all of the content for your house into _your_ `house` folder from the mysterious, but generous, "cloud" of `term-world`.
 
-### Map of the house
+### Map of the `house`
 
 To assist with your wayfinding, all of the houses built in the various neighborhoods of `term-world` feature the same layout, depicted below.
 
@@ -109,9 +105,9 @@ python FragileBox.py
 
 (Someone is reading this right now and thinking "Yeah, I _do_!")
 
-#### An important lesson about `term-world`
+### An important lesson about `term-world`
 
-If there exists only one rule about `term-world`, it's that you can _use anything_ you have the permission to use. Given the lesson we learned about opening boxes above, the `python` command seems to make this happen for us. So, if you were to find a `Couch.py` somewhere in your house, it might be interesting to
+If there exists only one rule about `term-world`, it's that you can _use anything_ you have the permission to use. Given the lesson we learned about opening boxes above, the `python` command seems to make this happen for us. So, if you were to find a `Couch.py` somewhere in your house, it might be interesting to:
 
 ```
 python Couch.py
@@ -119,7 +115,7 @@ python Couch.py
 
 Something equally curious _might_ happen.
 
-## `Evaluating house Content`
+## Evaluating `house` Content
 
 Each week's repository is outfitted with a grader that can be used to evaluate your work for the week. In order to run the this grader for a given week's work, you'll need to first navigate to the "root" folder of the assignment (that is, the base folder containing a given assignment's work, such as `house` for this week):
 
@@ -166,19 +162,17 @@ As you can tell, there are some checks which have been satisfied, though there a
 
 The GitHub platform is a place to store your work. So, it makes some sense that should be able to _clone_ (download) from it, and push back (upload) to it. Here, we'll learn this second part.
 
-- [ ] `cd` to your `~` folder
-- [ ] Locate the `house` folder and `cd` to it.
+- `cd` to your `~` folder
+- Locate the `house` folder and `cd` to it.
 
 Once in this folder, we need to tell git that there have been changes.
 
-- [ ] Type `git add -A` and press `Enter`
-* This tells git to look through the _entire_ folder structure for new changes and "stage" them
-
-- [ ] Type `git commit -m "{Commit message}"` to "label" the commit
-* This is typically something like `git commit -m "Fixing a typo"` -- the message in quotes should be as descriptive as possible, while remaining somewhat short
-
-- [ ] To send all changes to the server, type `git push
-- [ ] At the prompt, input the password associated with the `SSH Key` you created earlier
+- Type `git add -A` and press `Enter`
+  - This tells git to look through the _entire_ folder structure for new changes and "stage" them
+- Type `git commit -m "{Commit message}"` to "label" the commit
+  - This is typically something like `git commit -m "Fixing a typo"` -- the message in quotes should be as descriptive as possible, while remaining somewhat short
+- To send all changes to the server, type `git push`
+- At the prompt, input the password associated with the `SSH Key` you created earlier
 
 Once the process finishes successfully, we're done!
 
