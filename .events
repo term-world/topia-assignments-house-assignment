@@ -3,6 +3,11 @@ do
   echo "$line";
 done
 
+if [ ! -f .flags ]; then
+  touch .flags
+  echo "{}" >> .flags
+fi
+
 if [[ "$(jq .office .flags)" == null ]]; then
   python -c "import os
 from narrator import Checkpoint
