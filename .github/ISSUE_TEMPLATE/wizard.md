@@ -1,8 +1,8 @@
 ---
-name: wizard.md
+name: wizard
 about: Template for Wizard reports
-title: Assignment Progress
-labels: bug
+title: 'Assignment Progress'
+labels: 'bug'
 assignees: ''
 
 ---
