@@ -1,32 +1,37 @@
 # BASE DIR
 - ./:
   - nameplate.md:
-    - description: Customize the nameplate (no TODOs)
+    - description: Customize the nameplate (no TODO markers remaining)
+      category: Move-In Checklist
       check: MatchFileFragment
       options:
         fragment: TODO
         count: 0
         exact: true
 # ITEMS <-- TODO: write flags for object locations
-- description: Find the Ink hidden in the couch
+- description: Find the Ink needed to print the lease
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     count: 1
     command: find . -name Ink.py
 - description: Print the lease
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     count: 1
     command: find . -name Lease.md
 # EVENTS
 - description: Enter the house
+  category: Move-In Checklist
   check: MatchCommandFragment
   options:
     fragment: "null"
     count: 0
     exact: true
     command: jq .kitchen .flags
-- description: Read the note
+- description: Read the Note in the living-room
+  category: Move-In Checklist
   check: MatchCommandFragment
   options:
     fragment: "null"
@@ -35,30 +40,35 @@
     command: jq .note_read .flags
 # BOXES
 - description: Open the UltraHeavyBox
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     command: ls -l living-room/dining-room/kitchen/UltraHeavyBox.py
     count: 0
     exact: true
 - description: Open the FragileBox
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     command: ls -l living-room/dining-room/FragileBox.py
     count: 0
     exact: true
 - description: Open the SinisterLookingBox
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     command: ls -l living-room/hallway/bedroom/SinisterLookingBox.py
     count: 0
     exact: true
 - description: Open the TubeShapedBox
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     command: ls -l living-room/hallway/bedroom/TubeShapedBox.py
     count: 0
     exact: true
 - description: Open the BeatUpBox
+  category: Move-In Checklist
   check: CountCommandOutput
   options:
     command: ls -l living-room/hallway/office/BeatUpBox.py
