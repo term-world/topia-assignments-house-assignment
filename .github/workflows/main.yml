@@ -8,12 +8,12 @@ jobs:
   grade:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with: 
         fetch-depth: '0'
     - name: Setup Python
       if: always()
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v3
       with:
         python-version: 3.10.6
     - name: Set up grading environment
@@ -28,3 +28,11 @@ jobs:
       env:   
         PIPENV_VENV_IN_PROJECT: 1
         PIPENV_IGNORE_VIRTUALENVS: 1
+    - name: Create Wizard report
+      id: wizard
+      uses: term-world/wizard@v0.3.2
+      with:
+        gatorgrade-config: '.gatorgrade.yml'
+      if: always()
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
