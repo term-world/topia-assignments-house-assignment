@@ -1,10 +1,1 @@
-{
-  "cwd": "/world/city/Folivoria/dluman/house-assignment",
-  "living-room": "living-room",
-  "dining-room": "living-room/dining-room",
-  "hallway": "living-room/hallway",
-  "kitchen": "living-room/dining-room/kitchen",
-  "garden": "living-room/dining-room/kitchen/garden",
-  "bedroom": "living-room/hallway/bedroom",
-  "office": "living-room/hallway/office"
-}
+{}
