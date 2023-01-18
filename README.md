@@ -67,6 +67,8 @@ Once you're in your `house folder`, locate the `Version Control` menu at the rig
 
 ![VS Code source control menu](https://user-images.githubusercontent.com/1552764/213094317-4e2f580c-b70b-4a2c-b9b2-91d2eaa39fbe.png)
 
+As with _every_ operation we do with GitHub, you'll need to provide the password for the `SSH` key we made earlier. This is a regular feature of our work; you'll get used to entering this password on a regular basis.
+
 This will `pull` all of the content for your house into _your_ `house` folder from the mysterious, but generous, "cloud" of `term-world`.
 
 ### Map of the `house`
