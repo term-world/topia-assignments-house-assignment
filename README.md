@@ -160,19 +160,21 @@ As you can tell, there are some checks which have been satisfied, though there a
 
 ## Submitting the assignment/saving progress
 
-The GitHub platform is a place to store your work. So, it makes some sense that should be able to _clone_ (download) from it, and push back (upload) to it. Here, we'll learn this second part.
+The GitHub platform is a place to store your work. So, it makes some sense that should be able to download from it, and push back (upload) to it. Here, we'll learn this second part.
 
-- `cd` to your `~` folder
-- Locate the `house` folder and `cd` to it.
+In the toolbar at the far left, located the `Source Control` menu, as pictured below:
+![VS Code source control menu](https://user-images.githubusercontent.com/1552764/213094317-4e2f580c-b70b-4a2c-b9b2-91d2eaa39fbe.png)
 
 Once in this folder, we need to tell git that there have been changes.
 
-- Type `git add -A` and press `Enter`
-  - This tells git to look through the _entire_ folder structure for new changes and "stage" them
-- Type `git commit -m "{Commit message}"` to "label" the commit
-  - This is typically something like `git commit -m "Fixing a typo"` -- the message in quotes should be as descriptive as possible, while remaining somewhat short
-- To send all changes to the server, type `git push`
-- At the prompt, input the password associated with the `SSH Key` you created earlier
+* Observe the list of files you've changed and add them to a `staging` area using the `+` button to the right of each file
+* Once these have been "staged," attach a message to what we call a `commit` -- a "packaging" of the files to send to GitHub
+* To transmit this newly-assembled packaged, locate the `Commit & Push` option
+
+The steps of the process are illustrated below.
+
+![Staging, commiting and pushing using buttons described](https://user-images.githubusercontent.com/1552764/213094575-cdeca619-05f3-4da6-a641-0002a571d230.png)
+
 
 Once the process finishes successfully, we're done!
 
