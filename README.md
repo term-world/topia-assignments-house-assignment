@@ -63,11 +63,9 @@ Right now, the house is pretty empty. The output of another command, `ls` will s
 
 If you've navigated away from your `house` folder, `cd` back to it. However, if you're there, we can populate your house with your things. They're currently stored on GitHub, the platform we use to do something called "versioning" our files. As with everything in our time in `term-world`, we'll get plenty more experience with the customs and protocols of living in our digital society.
 
-Once you're in your `house folder`:
+Once you're in your `house folder`, locate the `Version Control` menu at the right side of your VS Code screen and locate the `Pull` option:
 
-```
-git pull
-```
+![VS Code source control menu](https://user-images.githubusercontent.com/1552764/213094317-4e2f580c-b70b-4a2c-b9b2-91d2eaa39fbe.png)
 
 This will `pull` all of the content for your house into _your_ `house` folder from the mysterious, but generous, "cloud" of `term-world`.
 
@@ -162,10 +160,7 @@ As you can tell, there are some checks which have been satisfied, though there a
 
 The GitHub platform is a place to store your work. So, it makes some sense that should be able to download from it, and push back (upload) to it. Here, we'll learn this second part.
 
-In the toolbar at the far left, located the `Source Control` menu, as pictured below:
-![VS Code source control menu](https://user-images.githubusercontent.com/1552764/213094317-4e2f580c-b70b-4a2c-b9b2-91d2eaa39fbe.png)
-
-Once in this folder, we need to tell git that there have been changes.
+Bottom line: we need to tell git that there have been changes.
 
 * Observe the list of files you've changed and add them to a `staging` area using the `+` button to the right of each file
 * Once these have been "staged," attach a message to what we call a `commit` -- a "packaging" of the files to send to GitHub
