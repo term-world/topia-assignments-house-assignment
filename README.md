@@ -76,9 +76,9 @@ This will `pull` all of the content for your house into _your_ `house` folder fr
 To assist with your wayfinding, all of the houses built in the various neighborhoods of `term-world` feature the same layout, depicted below.
 
 ```
- -----------      --------
-|  KITCHEN  | -- | GARDEN |
- -----------      --------
+ ----------- 
+|  KITCHEN  | 
+ ----------- 
        |
  -------------               ---------
 | DINING-ROOM |             | BEDROOM |
