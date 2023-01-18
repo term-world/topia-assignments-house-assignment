@@ -172,8 +172,16 @@ The steps of the process are illustrated below.
 
 ![Staging, commiting and pushing using buttons described](https://user-images.githubusercontent.com/1552764/213094575-cdeca619-05f3-4da6-a641-0002a571d230.png)
 
+### Note on your first time completing this process
 
-Once the process finishes successfully, we're done!
+It is nearly 100% likely that you will receive a prompt telling you to set your `git config` for `user.name` and/or `user.email`. Two commands in the terminal fix this. Replace the relevant information in the examples below:
+
+```bash
+git config --global user.name "YOUR GITHUB USERNAME"
+git conifg --global user.email "YOUR ALLEGHENY EMAIL"
+```
+
+Then, retry the above process. Once the process finishes successfully, we're done! We can verify the results on GitHub.
 
 ## Backup policy reminder
 
